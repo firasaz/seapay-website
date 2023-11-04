@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.6 56C37.9 57 35 57.5 32 57.5C29.6 57.5 27.2 57.2 25 56.5" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M56.5 25C57.1 27.2 57.5 29.6 57.5 32C57.5 35 57 37.9 56 40.6" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M23.4 8C26.1 7 29 6.5 32 6.5C34.4 6.5 36.8 6.8 39 7.5" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M7.5 39C6.9 36.8 6.5 34.4 6.5 32C6.5 29 7 26.2 8 23.5" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M14.5 25.5C20.5751 25.5 25.5 20.5751 25.5 14.5C25.5 8.42487 20.5751 3.5 14.5 3.5C8.42487 3.5 3.5 8.42487 3.5 14.5C3.5 20.5751 8.42487 25.5 14.5 25.5Z" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M49.5 26C55.8513 26 61 20.8513 61 14.5C61 8.14873 55.8513 3 49.5 3C43.1487 3 38 8.14873 38 14.5C38 20.8513 43.1487 26 49.5 26Z" fill="url(#paint0_linear_7980_126084)"/>
+<path d="M14.5 61C20.8513 61 26 55.8513 26 49.5C26 43.1487 20.8513 38 14.5 38C8.14873 38 3 43.1487 3 49.5C3 55.8513 8.14873 61 14.5 61Z" fill="url(#paint1_linear_7980_126084)"/>
+<path d="M49.5 60.5C55.5751 60.5 60.5 55.5751 60.5 49.5C60.5 43.4249 55.5751 38.5 49.5 38.5C43.4249 38.5 38.5 43.4249 38.5 49.5C38.5 55.5751 43.4249 60.5 49.5 60.5Z" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M52.3 20.2C51.7 20.4 51.1 20.5 50.5 20.5C47.2 20.5 44.5 17.8 44.5 14.5C44.5 11.2 47.2 8.5 50.5 8.5C51.1 8.5 51.7 8.6 52.3 8.8" stroke="white" stroke-miterlimit="10"/>
+<path d="M43 13.5H50" stroke="white" stroke-miterlimit="10"/>
+<path d="M43 15.5H50" stroke="white" stroke-miterlimit="10"/>
+<path d="M38 33L40.5 30.5L43 33" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M26 30.5L23.5 33L21 30.5" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M40.4 30.6001C40.5 31.0001 40.5 31.5001 40.5 32.0001C40.5 36.7001 36.7 40.5001 32 40.5001C28.8 40.5001 25.9 38.7001 24.5 36.0001" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M23.5 32.9C23.5 32.6 23.5 32.3 23.5 32C23.5 27.3 27.3 23.5 32 23.5C34.9 23.5 37.5 25 39 27.2" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M9 49.5H16.7" stroke="white" stroke-miterlimit="10"/>
+<path d="M18 55.5H11.5V47.4C11.5 45.3 13.2 43.5 15.2 43.5C16 43.5 16.8 43.8 17.4 44.2" stroke="white" stroke-miterlimit="10"/>
+<circle cx="11" cy="11" r="2" stroke="#0C1142"/>
+<circle cx="18" cy="18" r="2" stroke="#0C1142"/>
+<path d="M10.5 18.5L18.5 10.5" stroke="#0C1142" stroke-linecap="round"/>
+<path d="M44.5 47.5H54.5" stroke="#0C1142"/>
+<path d="M44.5 52.5H54.5" stroke="#0C1142"/>
+<path d="M46.5 55.5L48.5 44.5" stroke="#0C1142"/>
+<path d="M50.5 55.5L52.5 44.5" stroke="#0C1142"/>
+<defs>
+<linearGradient id="paint0_linear_7980_126084" x1="38" y1="14.5" x2="61" y2="14.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2BD4DB" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#2BD4DB" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_7980_126084" x1="3.0091" y1="49.5041" x2="26.0091" y2="49.5041" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2BD4DB" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#2BD4DB" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>

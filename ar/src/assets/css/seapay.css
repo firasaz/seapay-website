@@ -1,0 +1,23 @@
+.hero {
+    background-color: #05007C !important;
+    padding-bottom: none !important;
+  }
+
+  
+* {
+  font-family: "Frutiger" !important;
+}
+
+@font-face {
+  font-family: "Frutiger";
+  src: url(assets/fonts/FrutigerLTArabic45Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Frutiger";
+  src: url(assets/fonts/FrutigerLTArabic65Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+.pt-lg-10 {
+  padding-top: 10 !important;
+}

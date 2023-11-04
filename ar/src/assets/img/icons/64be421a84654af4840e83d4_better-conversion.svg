@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.5 26.5C20.5751 26.5 25.5 21.5751 25.5 15.5C25.5 9.42487 20.5751 4.5 14.5 4.5C8.42487 4.5 3.5 9.42487 3.5 15.5C3.5 21.5751 8.42487 26.5 14.5 26.5Z" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M49.5 60.5C55.5751 60.5 60.5 55.5751 60.5 49.5C60.5 43.4249 55.5751 38.5 49.5 38.5C43.4249 38.5 38.5 43.4249 38.5 49.5C38.5 55.5751 43.4249 60.5 49.5 60.5Z" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M50 32C50 32 61 28.1 61 18.5V7L50 3L39 7C39 7 39 16.5 39 18.5C39 27.5 50 32 50 32Z" fill="url(#paint0_linear_1152_5)"/>
+<path d="M45.1001 16.9L48.6001 20.4L56.5001 12.4" stroke="white" stroke-miterlimit="10"/>
+<path d="M17.3 21.2C16.7 21.4 16.1 21.5 15.5 21.5C12.2 21.5 9.5 18.8 9.5 15.5C9.5 12.2 12.2 9.5 15.5 9.5C16.1 9.5 16.7 9.6 17.3 9.8" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M8 14.5H15" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M8 16.5H15" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M54 43L49.5 49.5L45 43" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M49.5 50V56" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M46 49.5H53" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M46 51.5H53" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M38 33L40.5 30.5L43 33" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M26 30L23.5 32.5L21 30" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M40.4 30.6C40.5 31 40.5 31.5 40.5 32C40.5 36.7 36.7 40.5 32 40.5C28.8 40.5 25.9 38.7 24.5 36" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M23.5 32.5C23.5 32.3 23.5 32.2 23.5 32C23.5 27.3 27.3 23.5 32 23.5C34.9 23.5 37.5 25 39 27.2" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M40.5 56C37.8 57 35 57.5 32 57.5C17.9 57.5 6.5 46.1 6.5 32C6.5 29.3 6.9 26.6 7.7 24.2" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M57.3 28.6C57.5 29.7 57.5 30.9 57.5 32C57.5 35 57 37.8 56 40.5" stroke="#0C1142" stroke-miterlimit="10"/>
+<path d="M22.8999 8.2C25.6999 7.1 28.7999 6.5 31.9999 6.5C34.0999 6.5 36.0999 6.7 37.9999 7.2" stroke="#0C1142" stroke-miterlimit="10"/>
+<defs>
+<linearGradient id="paint0_linear_1152_5" x1="39" y1="17.5011" x2="61" y2="17.5011" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2BD4DB" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#2BD4DB" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
