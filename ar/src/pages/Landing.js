@@ -17,6 +17,17 @@ import Future from 'components/SeaPay/Future';
 import iconRevenue from 'assets/img/icons/icon-revenue.svg';
 import Product from 'components/SeaPay/Product';
 import paymentsImage from "assets/img/generic/payments.png";
+
+
+import {
+  productsRoutes,
+  solutionsRoutes,
+  developersRoutes,
+  companyRoutes
+} from 'routes/siteMaps';
+import IconGroup from 'components/common/icon/IconGroup';
+import { bgWhiteIcons } from 'data/socialIcons';
+
 const Landing = () => {
   const {
     config: { isDark, isRTL }
@@ -77,7 +88,7 @@ const Landing = () => {
             md={11}
             lg={8}
             xl={4}
-            className="pb-7 pb-xl-9 text-center text-xl-start \"
+            className="pb-7 pb-xl-9 text-center text-xl-start"
           >
             <h1 className="text-white fw-light" style={{ paddingBottom: 10 }}>
               <div style={{ paddingBottom: 30 }}>اقبل الدفع بواسطة</div>
@@ -125,7 +136,7 @@ const Landing = () => {
           </Col>
         </Row>
       </Section>
-      <Section backgroundColor={"white"}>
+      <Section style={{backgroundColor: "white"}}>
         <h1 className="fs-2 fs-sm-4 fs-md-5" style={{ fontWeight: "bolder" }}>ما الذي تقدمة SeaPay ؟</h1>
         <div style={{ paddingTop: 30 }}>
           <div className='row'>
@@ -159,6 +170,47 @@ const Landing = () => {
             <Product />
           </div>
         </div>
+      </Section>
+      <Section  style={{color:'#fff', backgroundColor:'#0f1654'}}>
+        <div>
+          <h1 style={{color:'#fff'}}>سهل عمليات الدفع مع <span className='fw-bold'>SeaPay</span></h1>
+          <button style={{ 
+            marginTop:'20px', 
+            padding:'20px', 
+            color:'#fff', 
+            fontSize:'25px', 
+            fontFamily:'Inter', 
+            backgroundColor:'#0700A0', 
+            borderRadius:'20px' 
+          }}>Contact Us</button>
+        </div>
+        <div className='d-flex justify-content-between'>
+          <div className='d-flex flex-column my-4'>
+            <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{productsRoutes.label}</h4>
+            {productsRoutes.children[0].children.map((route, index) => (
+              <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
+            ))}
+          </div>
+          <div className='d-flex flex-column my-4'>
+            <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{solutionsRoutes.label}</h4>
+            {solutionsRoutes.children[0].children.map((route, index) => (
+              <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
+            ))}
+          </div>
+          <div className='d-flex flex-column my-4'>
+            <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{developersRoutes.label}</h4>
+            {developersRoutes.children[0].children.map((route, index) => (
+              <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
+            ))}
+          </div>
+          <div className='d-flex flex-column my-4'>
+            <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{companyRoutes.label}</h4>
+            {companyRoutes.children[0].children.map((route, index) => (
+              <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
+            ))}
+          </div>
+        </div>
+        <IconGroup className="mt-4 text-2xl" icons={bgWhiteIcons} />
       </Section>
     </>
   );

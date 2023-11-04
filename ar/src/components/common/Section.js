@@ -12,7 +12,6 @@ const Section = ({
   position,
   video,
   bgClassName,
-  backgroundColor,
   className,
   children,
   ...rest
@@ -21,7 +20,7 @@ const Section = ({
   bgClassName && (bgProps.className = bgClassName);
 
   return (
-    <section style={{ backgroundColor: backgroundColor }} className={classNames({ [`bg-${bg}`]: bg }, className)} {...rest}>
+    <section className={classNames({ [`bg-${bg}`]: bg }, className)} {...rest}>
       {image && <Background {...bgProps} />}
       <Container fluid={fluid}>{children}</Container>
     </section>
