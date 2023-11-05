@@ -15,7 +15,7 @@ function Footer() {
       <div>
         <h1 style={{color:'#fff'}}>سهل عمليات الدفع مع <span className='fw-bold'>SeaPay</span></h1>
         <button 
-          class='footer-btn'
+          className='footer-btn'
           style={{ 
           marginTop:'20px', 
           padding:'20px', 

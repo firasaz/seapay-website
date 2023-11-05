@@ -45,7 +45,7 @@ const Landing = () => {
         </div>
         <h1 className="fs-2 fs-sm-4 fs-md-5" style={{ fontWeight: "bolder" }}>اكتشف قائمة منتجاتنا</h1>
         <div className='py-4 gap-3' id='products-container'>
-            <Product image={paymentsImage} title={"معالجة المدفوعات"} description={"وسّع نطاق أعمالك واثبت حضورك في مناطق جديدة من خلال حلول مدفوعات محلية وموثوقة. تساعدك معرفتنا المحلية والعميقة على زيادة النمو من خلال تصميم الحل المناسب لك حسب كل سوق."} />
+            <Product img={paymentsImage} title={"معالجة المدفوعات"} description={"وسّع نطاق أعمالك واثبت حضورك في مناطق جديدة من خلال حلول مدفوعات محلية وموثوقة. تساعدك معرفتنا المحلية والعميقة على زيادة النمو من خلال تصميم الحل المناسب لك حسب كل سوق."} />
             <Product />
             <Product />
             <Product />
