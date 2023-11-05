@@ -1,9 +1,9 @@
 .hero {
-    background-color: #05007C !important;
-    padding-bottom: none !important;
-  }
+  background-color: #05007C !important;
+  padding-bottom: none !important;
+}
 
-  
+
 * {
   font-family: "Frutiger" !important;
 }
@@ -12,6 +12,7 @@
   font-family: "Frutiger";
   src: url(assets/fonts/FrutigerLTArabic45Light.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "Frutiger";
   src: url(assets/fonts/FrutigerLTArabic65Bold.ttf) format("truetype");
@@ -20,4 +21,27 @@
 
 .pt-lg-10 {
   padding-top: 10 !important;
+}
+
+.footer-btn:hover {
+  background: #000;
+  opacity: 0.8;
+  transition: all 0.4s;
+}
+
+#products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width:768px) {
+  #products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:576px) {
+  #products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

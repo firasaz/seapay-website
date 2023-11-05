@@ -9,7 +9,7 @@ export const productsRoutes = {
       children: [
         {
           name: 'بوابة التجار',
-          to: '/',
+          to: '/merchant-gateway',
           exact: true,
           active: true
         },
@@ -142,7 +142,7 @@ export const companyRoutes = {
           active: true
         },
         {
-          name: 'التوضيف',
+          name: 'التوظيف',
           to: '/',
           exact: true,
           active: true
