@@ -11,23 +11,11 @@ import {
   } from 'routes/siteMaps';
 function Footer() {
   return (
-    <Section style={{color:'#fff', backgroundColor:'#0f1654'}}>
-      <div>
+    <Section style={{color:'#fff', backgroundColor:'#05007C'}}>
+      <div style={{ display:'grid', gap:'20px' }}>
         <h1 style={{color:'#fff'}}>سهل عمليات الدفع مع <span className='fw-bold'>SeaPay</span></h1>
-        <button 
-          className='footer-btn'
-          style={{ 
-          marginTop:'20px', 
-          padding:'20px', 
-          color:'#fff', 
-          fontSize:'25px', 
-          fontFamily:'Inter', 
-          backgroundColor:'#0700A0', 
-          borderRadius:'20px' ,
-          border: 'none'
-        }}>Contact Us</button>
       </div>
-      <div className='d-flex justify-content-between'>
+      <div className='d-flex gap-8'>
         <div className='d-flex flex-column my-4'>
           <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{productsRoutes.label}</h4>
           {productsRoutes.children[0].children.map((route, index) => (
@@ -53,7 +41,22 @@ function Footer() {
           ))}
         </div>
       </div>
-      <IconGroup className="mt-4 text-2xl" icons={bgWhiteIcons} />
+      <div className='d-flex flex-column gap-4 mt-4'>
+        <button 
+          className='footer-btn'
+          style={{ 
+          // marginTop:'20px', 
+          padding:'20px', 
+          color:'#0B1727', 
+          fontSize:'25px', 
+          fontFamily:'Inter', 
+          backgroundColor:'#fff', 
+          borderRadius:'8px' ,
+          border: 'none',
+          width: 'fit-content'
+        }}>تواصل معنا</button>
+        <IconGroup className="text-2xl" icons={bgWhiteIcons} />
+      </div>
     </Section>
   )
 }

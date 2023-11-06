@@ -1,9 +1,9 @@
-import React from 'react'
 import Hero from 'components/SeaPay/Hero';
 import Navigation from 'components/SeaPay/Navigation';
 
 import dashboardImage from 'assets/img/generic/falcon-mode-auto.jpg'
 import f1Img from 'assets/img/generic/falcon-mode-dark.jpg'
+import f2Img from 'assets/img/generic/falcon-mode-default.jpg'
 import Banner from 'components/SeaPay/Banner';
 import Section from 'components/common/Section';
 import Fragment from 'components/SeaPay/Fragment';
@@ -11,9 +11,7 @@ import Footer from 'components/SeaPay/Footer';
 function MerchantGateway() {
     return (
         <>
-            <Section className='m-0 p-0'>
-                <Navigation />
-            </Section>
+            <Navigation />
             
             <Hero 
                 title='حوّل الأموال بشكل سلس وموسّع مع حلول إرسال المدفوعات' 
@@ -23,14 +21,44 @@ function MerchantGateway() {
                 dashboardImage={dashboardImage}
             />
 
-            <Banner />
+            <Section><Banner /></Section>
 
-            <Fragment 
-                title='تحسين شامل'
-                description='قد تفشل عملية الدفع لأسباب عدة. تعمل خاصية Intelligent Acceptance في الوقت الفعلي عبر رسائل الدفع والتوجيه وإعادة المحاولة، بالإضافة إلى استخدام ابتكارات دفع جديدة لضمان أعلى فرصة للنجاح.'
-                imgAttr={{ src: f1Img, width: '500px', style: {borderRadius: '5px'} }}
-                style={{display: 'flex', backgroundColor: '#fff'}}
-            />
+            <Section className=''>
+                <div className="d-flex flex-row gap-3">
+                    <Fragment
+                        title='تحسين شامل'
+                        description='قد تفشل عملية الدفع لأسباب عدة. تعمل خاصية Intelligent Acceptance في الوقت الفعلي عبر رسائل الدفع والتوجيه وإعادة المحاولة، بالإضافة إلى استخدام ابتكارات دفع جديدة لضمان أعلى فرصة للنجاح.'
+                        imgAttr={{ src: f2Img, style: {borderRadius: '4px', width:'100%', maxWidth:'500px'} }}
+                        style={{backgroundColor: '#fff', borderRadius: '4px'}}
+                        // flex
+                    />
+                    <Fragment
+                        title='تحسين شامل'
+                        description='قد تفشل عملية الدفع لأسباب عدة. تعمل خاصية Intelligent Acceptance في الوقت الفعلي عبر رسائل الدفع والتوجيه وإعادة المحاولة، بالإضافة إلى استخدام ابتكارات دفع جديدة لضمان أعلى فرصة للنجاح.'
+                        imgAttr={{ src: f1Img, style: {borderRadius: '4px', width:'100%', maxWidth:'500px'} }}
+                        style={{backgroundColor: '#fff', borderRadius: '4px'}}
+                        // flex
+                    />
+                </div>
+            </Section>
+            <Section className='d-flex flex-column gap-3'>
+                <div className="d-flex flex-column gap-3">
+                    <Fragment
+                        title='تحسين شامل'
+                        description='قد تفشل عملية الدفع لأسباب عدة. تعمل خاصية Intelligent Acceptance في الوقت الفعلي عبر رسائل الدفع والتوجيه وإعادة المحاولة، بالإضافة إلى استخدام ابتكارات دفع جديدة لضمان أعلى فرصة للنجاح.'
+                        // imgAttr={{ src: f1Img, style: {borderRadius: '4px', width:'100%', maxWidth:'500px'} }}
+                        style={{backgroundColor: '#fff', borderRadius: '4px', textAlign:'center'}}
+                        flex
+                    />
+                    <Fragment
+                        title='تحسين شامل'
+                        description='قد تفشل عملية الدفع لأسباب عدة. تعمل خاصية Intelligent Acceptance في الوقت الفعلي عبر رسائل الدفع والتوجيه وإعادة المحاولة، بالإضافة إلى استخدام ابتكارات دفع جديدة لضمان أعلى فرصة للنجاح.'
+                        imgAttr={{ src: f1Img, style: {borderRadius: '4px', width:'100%', maxWidth:'500px'} }}
+                        style={{backgroundColor: '#fff', borderRadius: '4px'}}
+                        flex
+                    />
+                </div>
+            </Section>
 
             <Footer />
         </>

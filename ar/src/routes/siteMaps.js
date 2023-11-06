@@ -15,7 +15,7 @@ export const productsRoutes = {
         },
         {
           name: 'خيارات الدفع',
-          to: '/',
+          to: '/payment-options',
           exact: true,
           active: true
         },

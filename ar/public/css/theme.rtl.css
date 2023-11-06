@@ -1496,7 +1496,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 h6, .h6 {
@@ -9341,7 +9341,7 @@ fieldset:disabled .tox .tox-dialog__footer .tox-button--secondary,
 }
 
 .w-100 {
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
 .w-auto {
@@ -9873,7 +9873,7 @@ fieldset:disabled .tox .tox-dialog__footer .tox-button--secondary,
 }
 
 .me-5 {
-  margin-left: 3rem !important;
+  /* margin-left: 3rem !important; */
 }
 
 .me-6 {
@@ -9921,7 +9921,7 @@ fieldset:disabled .tox .tox-dialog__footer .tox-button--secondary,
 }
 
 .mb-3 {
-  margin-bottom: 1rem !important;
+  /* margin-bottom: 1rem !important; */
 }
 
 .mb-4 {

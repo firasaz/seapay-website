@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { Button, Col, Row } from 'react-bootstrap';
 import { useAppContext } from 'Main';
 import { Typewriter } from 'react-simple-typewriter';
@@ -12,17 +11,17 @@ function Hero({ title, description, msg, btnText, span, dashboardImage }) {
   } = useAppContext();
   return (
     <Section
-      className="py-0 hero overflow-hidden"
+      className="hero overflow-hidden"
       data-bs-theme="light"
       position="center bottom"
       overlay
     >
-      <Row className="justify-content-center align-items-center" style={{ paddingTop: 150, paddingBottom: 50 }}>
+      <Row className="justify-content-center align-items-center py-5">
         <Col
           md={11}
           lg={8}
           xl={dashboardImage ? 4 : 12}
-          className={dashboardImage ? "pb-7 pb-xl-9 text-center text-xl-start" : "text-center" }
+          className={dashboardImage ? "text-center text-xl-start" : "text-center" }
         >
           <h1 className="text-white fw-light" style={{ paddingBottom: 10 }}>{title}</h1>
           {span && (

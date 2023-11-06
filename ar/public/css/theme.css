@@ -9524,7 +9524,7 @@ fieldset:disabled .tox .tox-dialog__footer .tox-button--secondary,
 }
 
 .justify-content-evenly {
-  justify-content: space-evenly !important;
+  /* justify-content: space-evenly !important; */
 }
 
 .align-items-start {
