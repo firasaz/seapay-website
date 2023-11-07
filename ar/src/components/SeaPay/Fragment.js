@@ -10,8 +10,8 @@ function Fragment({tag, title, description, imgAttr, style, flex, children}) {
                     <h6>{tag}</h6>
                 )}
                 <div className='mb-4 me-5'>
-                    <h1 className={classNames('mb-4 fw-bold', title.className)} style={{fontSize: '2.5rem', ...title.style}}>{title.text}</h1>
-                    <h5 className={classNames('fw-semibold', description.className)} style={description.style}>{description.text}</h5>
+                    <h1 className={classNames('mb-4 fw-bold', title?.className)} style={{fontSize: '2.5rem', ...title.style}}>{title.text}</h1>
+                    <h5 className={classNames('fw-semibold', description?.className)} style={description?.style}>{description?.text}</h5>
                 </div>
             </div>
             {imgAttr && (

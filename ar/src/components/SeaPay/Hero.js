@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import Section from 'components/common/Section';
 import { Link } from 'react-router-dom';
 
-function Hero({ title, description, msg, btnText, span, dashboardImage }) {
+function Hero({ title, description, msg, btnText, span, dashboardImage, children }) {
   const {
     config: { isDark, isRTL }
   } = useAppContext();
@@ -71,6 +71,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage }) {
           </Col>
         )}
       </Row>
+      <Row>{children}</Row>
     </Section>
   )
 }

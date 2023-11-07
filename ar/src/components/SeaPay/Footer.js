@@ -17,25 +17,25 @@ function Footer() {
       </div>
       <div className='d-flex gap-8'>
         <div className='d-flex flex-column my-4'>
-          <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{productsRoutes.label}</h4>
+          <h4 className='my-4' style={{ color:'#fff', fontWeight:'bold' }}>{productsRoutes.label}</h4>
           {productsRoutes.children[0].children.map((route, index) => (
             <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
           ))}
         </div>
         <div className='d-flex flex-column my-4'>
-          <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{solutionsRoutes.label}</h4>
+          <h4 className='my-4' style={{ color:'#fff', fontWeight:'bold' }}>{solutionsRoutes.label}</h4>
           {solutionsRoutes.children[0].children.map((route, index) => (
             <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
           ))}
         </div>
         <div className='d-flex flex-column my-4'>
-          <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{developersRoutes.label}</h4>
+          <h4 className='my-4' style={{ color:'#fff', fontWeight:'bold' }}>{developersRoutes.label}</h4>
           {developersRoutes.children[0].children.map((route, index) => (
             <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
           ))}
         </div>
         <div className='d-flex flex-column my-4'>
-          <h4 className='my-4' style={{ color:'#c4c4c4', fontWeight:'bold' }}>{companyRoutes.label}</h4>
+          <h4 className='my-4' style={{ color:'#fff', fontWeight:'bold' }}>{companyRoutes.label}</h4>
           {companyRoutes.children[0].children.map((route, index) => (
             <Link to={route.to} key={index} className='my-2 opacity-75'><h5 className='text-white'>{route.name}</h5></Link>
           ))}
