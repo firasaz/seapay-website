@@ -51,7 +51,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, children
             variant="outline-light"
             size="lg"
             className="border-2 rounded-pill mt-4 fs-0 py-2"
-            to="#!"
+            to="https://mp.seapay.com.sa/register"
           >
             {btnText}
           </Button>

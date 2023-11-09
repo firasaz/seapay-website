@@ -7,6 +7,9 @@
 * {
   font-family: "Frutiger" !important;
 }
+body {
+  background-color: #f2f3f5;
+}
 
 @font-face {
   font-family: "Frutiger";
@@ -35,13 +38,31 @@
 }
 
 @media screen and (max-width:768px) {
-  #products-container {
+  #products-container, .equal-cards {
+    grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width:576px) {
-  #products-container {
+  #products-container, .equal-cards {
+    grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.equal-cards {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.text-container {
+  position: relative;
+}
+.text-transition {
+  transition: transform 0.4s ease-in-out;
+}
+.text-transition:hover {
+  transform: translateY(-5px)
 }

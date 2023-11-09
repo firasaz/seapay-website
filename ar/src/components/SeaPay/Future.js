@@ -8,12 +8,12 @@ const Future = ({ title, description, image, style }) => {
                 <div style={{ paddingBottom: 30 }}>
                     <img src={image} width='50px' alt="test" />
                 </div>
-                <div style={{ fontWeight: "bold", paddingBottom: 20 }}>
+                <h2 style={{ fontWeight: "bold", paddingBottom: 20 }}>
                     {title}
-                </div>
-                <div style={{}}>
+                </h2>
+                <h5 style={{}}>
                     {description}
-                </div>
+                </h5>
             </div>
         </>
     );
