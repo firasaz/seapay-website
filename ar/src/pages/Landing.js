@@ -56,7 +56,7 @@ const Landing = () => {
           title={{ 'text': 'مميزاتنا', 'style': {fontSize: '3rem'} }}
           description={{ 'text': '' }}
         />
-        <div className="gap-4 rounded equal-cards">
+        <div className="gap-4 rounded equal-cards features">
           <Fragment
             title={{ 'text':'واجهة برمجة تطبيقات', 'as':'h3' }}
             description={{ 'text': 'تكاملاً سريعًا وسهلاً بين يديك .. SeePay API واجهة برمجة تطبيقات قوية وبسيطة ومرنة.' }}
@@ -118,14 +118,14 @@ const Landing = () => {
             <Fragment
               title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h2' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
-              imgAttr={{ 'src': mobileApp, 'width': '350px' }}
+              imgAttr={{ 'src': mobileApp, 'width': '100%', style:{maxWidth:'350px'} }}
               style={{ backgroundColor: '#fff', backgroundColor:'#f2f3f5'}}
               // flex
             />
             <Fragment
               title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h2' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
-              imgAttr={{ 'src': POS, 'width': '350px' }}
+              imgAttr={{ 'src': POS, 'width': '100%', style:{maxWidth:'350px'} }}
               style={{ backgroundColor: '#fff', backgroundColor:'#f2f3f5'}}
               // flex
             />
@@ -136,7 +136,7 @@ const Landing = () => {
       </Section>
 
       {/* <Section><Banner /></Section> */}
-      <Banner style={{ marginTop:'100px', marginBottom:'100px', borderRadius:'0px' }} />
+      <Banner style={{ borderRadius:'0px' }} />
 
       <Footer />
     </>

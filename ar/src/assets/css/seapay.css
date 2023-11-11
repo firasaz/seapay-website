@@ -37,10 +37,34 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.equal-cards {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+#pricingCards {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width:820px) {
+  .features {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width:768px) {
   #products-container, .equal-cards {
     grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
+  }
+  #fragment {
+    flex-direction: column;
+  }
+  #pricingCards {
+    display: grid;
   }
 }
 
@@ -49,20 +73,21 @@ body {
     grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
   }
-}
-
-.equal-cards {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  .footer-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .text-container {
   position: relative;
 }
 .text-transition {
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .text-transition:hover {
   transform: translateY(-5px)
+}
+
+.button:hover {
+  opacity: 0.9;
 }

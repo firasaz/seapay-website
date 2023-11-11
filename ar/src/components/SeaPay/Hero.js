@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import Section from 'components/common/Section';
 import { Link } from 'react-router-dom';
 
-function Hero({ title, description, msg, btnText, span, dashboardImage, children }) {
+function Hero({ title, description, msg, btnText, span, dashboardImage, to, children }) {
   const {
     config: { isDark, isRTL }
   } = useAppContext();
@@ -23,7 +23,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, children
           xl={dashboardImage ? 4 : 12}
           className={dashboardImage ? "text-center text-xl-start" : "text-center" }
         >
-          <h1 className="text-white fw-light" style={{ paddingBottom: 10 }}>{title}</h1>
+          <h1 className="text-white fw-light" style={{ paddingBottom: 10, lineHeight: '60px' }}>{title}</h1>
           {span && (
             <h1 className='text-white fw-light py-1'>
               <span className="fw-bold">
@@ -34,7 +34,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, children
                   cursorStyle="|"
                   typeSpeed={70}
                   deleteSpeed={50}
-                  delaySpeed={1500}
+                  delaySpeed={1000}
                 />
               </span>
               <br />
@@ -46,22 +46,22 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, children
           <p className="lead text-white opacity-75">
             {msg}
           </p>
-          <Button
+          {btnText && <Button
             as={Link}
             variant="outline-light"
             size="lg"
-            className="border-2 rounded-pill mt-4 fs-0 py-2"
+            className="border-2 rounded-pill mt-4 fs-0 py-2 rounded"
             to="https://mp.seapay.com.sa/register"
           >
             {btnText}
-          </Button>
+          </Button>}
         </Col>
         {dashboardImage && (
           <Col
             xl={{ span: 7, offset: 1 }}
             className="align-self-start mt-4 mt-xl-0"
           >
-            <Link to="/">
+            <Link to={to}>
               <img
                 className="img-fluid"
                 src={dashboardImage}

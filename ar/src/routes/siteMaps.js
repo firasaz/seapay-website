@@ -8,44 +8,44 @@ export const productsRoutes = {
       icon: 'chart-pie',
       children: [
         {
-          name: 'بوابة التجار',
-          to: '/merchant-gateway',
+          name: 'SeaGateway للمدفوعات',
+          to: '/sea-gateway',
           exact: true,
           active: true
         },
         {
-          name: 'خيارات الدفع',
-          to: '/payment-options',
+          name: 'نقاط البيع الذكي',
+          to: '/pos-gateway',
           exact: true,
           active: true
         },
-        {
-          name: 'القبول الاكتروني',
-          to: '/dashboard/analytics',
-          active: true
-        },
-        {
-          name: 'إعادة البيع',
-          to: '/dashboard/crm',
-          active: true
-        },
-        {
-          name: 'الحسابات المتعددة',
-          to: '/dashboard/e-commerce',
-          active: true
-        },
-        {
-          name: 'أدوات الـ B2B',
-          to: '/dashboard/project-management',
-          active: true
-        }
+        // {
+        //   name: 'القبول الاكتروني',
+        //   to: '/dashboard/analytics',
+        //   active: true
+        // },
+        // {
+        //   name: 'إعادة البيع',
+        //   to: '/dashboard/crm',
+        //   active: true
+        // },
+        // {
+        //   name: 'الحسابات المتعددة',
+        //   to: '/dashboard/e-commerce',
+        //   active: true
+        // },
+        // {
+        //   name: 'أدوات الـ B2B',
+        //   to: '/dashboard/project-management',
+        //   active: true
+        // }
       ]
     }
   ]
 };
 
 export const solutionsRoutes = {
-  label: 'الحلول',
+  label: 'اسعارنا',
   labelDisable: true,
   children: [
     {
@@ -54,14 +54,14 @@ export const solutionsRoutes = {
       icon: 'chart-pie',
       children: [
         {
-          name: 'المتاجر الكترونية',
-          to: '/',
+          name: 'عملائنا الكرام',
+          to: '/prices',
           exact: true,
           active: true
         },
         {
-          name: 'المتاجر الفعلية',
-          to: '/',
+          name: 'عملاء بحر العرب',
+          to: '/prices-arabsea',
           exact: true,
           active: true
         },
@@ -137,7 +137,7 @@ export const companyRoutes = {
         },
         {
           name: 'تواصل معنا',
-          to: '/',
+          to: '/contact-us',
           exact: true,
           active: true
         },

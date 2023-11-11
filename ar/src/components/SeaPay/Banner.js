@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 
 function Banner({style}) {
   return (
-    <Section style={{backgroundColor: '#000', color: '#fff', borderRadius: '10px', textAlign: 'center', ...style}}>
+    <Section style={{ borderRadius: '10px', textAlign: 'center', ...style}}>
         <div className='mb-5'>
-            <h1 className='text-white fw-bold'>هل تريد معرفة المزيد حول إرسال المدفوعات؟</h1>
+            <h1 className='fw-bold' style={{ color:'currentcolor' }}>هل تريد معرفة المزيد حول إرسال المدفوعات؟</h1>
         </div>
         <div className='mb-5'>
-            <p className='text-white'>قدّم لعملائك تجربة دفع أسهل وأفضل مع حلولنا السريعة لإرسال المدفوعات. تواصَل مع خبرائنا وتعرّف على المزيد حول مزايا خدماتنا.</p>
+            <p className='' style={{ color:'currentcolor' }}>قدّم لعملائك تجربة دفع أسهل وأفضل مع حلولنا السريعة لإرسال المدفوعات. تواصَل مع خبرائنا وتعرّف على المزيد حول مزايا خدماتنا.</p>
         </div>
         <div className=''>
-            <Link to='/' className='py-2 px-3 rounded text-black' style={{backgroundColor: '#ffffd8'}}>
+            <Link to='/' className='py-2 px-3 rounded text-white button' style={{backgroundColor: '#05007C', color:'currentcolor' }}>
                 تواصل معنا
             </Link>
         </div>
