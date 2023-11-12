@@ -1,9 +1,9 @@
 import Hero from 'components/SeaPay/Hero';
 import Navigation from 'components/SeaPay/Navigation';
 
-import dashboardImage from 'assets/img/generic/falcon-mode-auto.jpg'
+// import dashboardImage from 'assets/img/generic/falcon-mode-auto.jpg'
 import f1Img from 'assets/img/generic/falcon-mode-dark.jpg'
-import f2Img from 'assets/img/generic/falcon-mode-default.jpg'
+// import f2Img from 'assets/img/generic/falcon-mode-default.jpg'
 import Banner from 'components/SeaPay/Banner';
 import Section from 'components/common/Section';
 import Fragment from 'components/SeaPay/Fragment';

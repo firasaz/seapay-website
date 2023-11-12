@@ -1,6 +1,6 @@
 import Section from 'components/common/Section';
 import Future from 'components/SeaPay/Future';
-import Product from 'components/SeaPay/Product';
+// import Product from 'components/SeaPay/Product';
 import Navigation from 'components/SeaPay/Navigation';
 import Hero from 'components/SeaPay/Hero';
 import Footer from 'components/SeaPay/Footer';
@@ -12,7 +12,7 @@ import icon from 'assets/img/icons/64a6e2c0eddcaacf900c5fa7_5426042c-938a-415f-a
 import lowFees from 'assets/img/icons/64a6e2c0eddcaacf900c5faa_20f2dc44-6741-489a-8cb6-953b30cb7996_icon-smart-experience.svg';
 import 'assets/css/seapay.css';
 import dashboardImage from 'assets/img/generic/dashboard.png';
-import paymentsImage from "assets/img/generic/payments.png";
+// import paymentsImage from "assets/img/generic/payments.png";
 
 import mobileApp from 'assets/img/seapay/mobile-app-cropped.png'
 import POS from 'assets/img/seapay/POS-cropped.png'
@@ -119,14 +119,14 @@ const Landing = () => {
               title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h2' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
               imgAttr={{ 'src': mobileApp, 'width': '100%', style:{maxWidth:'350px'} }}
-              style={{ backgroundColor: '#fff', backgroundColor:'#f2f3f5'}}
+              style={{ backgroundColor:'#f2f3f5'}}
               // flex
             />
             <Fragment
               title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h2' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
               imgAttr={{ 'src': POS, 'width': '100%', style:{maxWidth:'350px'} }}
-              style={{ backgroundColor: '#fff', backgroundColor:'#f2f3f5'}}
+              style={{ backgroundColor:'#f2f3f5'}}
               // flex
             />
           </div>

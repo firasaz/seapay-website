@@ -49,6 +49,7 @@ function Contact() {
 
                 <div className='row flex-1'>
                     <iframe
+                        title='Arab Sea Tower'
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3621.9976586427124!2d46.6306435!3d24.7955337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee34edb7aa86f%3A0x8f631aa71d606e29!2sArab%20Sea%20Tower!5e0!3m2!1sen!2ssa!4v1695893441315!5m2!1sen!2ssa"
                         width="100%"
                         height="450"

@@ -153,9 +153,9 @@ export const companyRoutes = {
 };
 
 
-export default [
-  productsRoutes,
-  solutionsRoutes,
-  developersRoutes,
-  companyRoutes
-];
+// export default [
+//   productsRoutes,
+//   solutionsRoutes,
+//   developersRoutes,
+//   companyRoutes
+// ];

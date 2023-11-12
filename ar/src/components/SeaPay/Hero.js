@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Hero({ title, description, msg, btnText, span, dashboardImage, to, children }) {
   const {
-    config: { isDark, isRTL }
+    config: { isRTL }
   } = useAppContext();
   return (
     <Section

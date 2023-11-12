@@ -17,7 +17,7 @@ function Fragment({tag, title, description, imgAttr, style, className, flex, fle
             </div>
             {imgAttr && (
                 <div className={flex && 'flex-1 d-flex'}>
-                    <img src={imgAttr.src} width={imgAttr.width} style={imgAttr.style} />
+                    <img src={imgAttr.src} width={imgAttr.width} style={imgAttr.style} alt='card-img' />
                 </div>
             )}
         </div>

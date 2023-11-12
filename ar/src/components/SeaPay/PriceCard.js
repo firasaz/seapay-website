@@ -51,7 +51,7 @@ function PriceCard({
               <li className="py-1" key={feature.id}>
                 <FontAwesomeIcon icon={faCheck} className="me-2 text-success" />{' '}
                 {feature.title}{' '}
-                <img src={feature.icon} width='50px' />
+                <img src={feature.icon} width='50px' alt='payment' />
                 {/* {feature.tag && (
                   <SoftBadge pill bg={feature.tag.type}>
                     {feature.tag.label}
