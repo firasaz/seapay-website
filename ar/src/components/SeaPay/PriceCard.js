@@ -12,22 +12,24 @@ function PriceCard({
     price,
     url,
     buttonText,
-    isFeatured,
+    bgColor,
     featureTitle,
     features
-  }
+  },
+  style
 }) {
   return (
     
     <Col
       lg={4}
-      className={classNames('border-top border-bottom', {
-        'dark__bg-1000 px-4 px-lg-0': isFeatured
-      })}
-      style={{ backgroundColor: isFeatured && 'rgba(115, 255, 236, 0.18)' }}
+      className={classNames('border-top border-bottom')}
+      style={{ ...style }}
     >
       <div className="h100">
-        <div className="text-center p-4">
+        <div 
+          className="text-center p-4"
+          style={{ backgroundColor: bgColor }}
+        >
           <h3 className="fw-normal my-0">{title}</h3>
           {/* <p className="mt-3">{subTitle}</p> */}
           <h2 className="fw-medium my-4">
@@ -37,7 +39,7 @@ function PriceCard({
           </h2>
           <Button
             as={Link}
-            variant={isFeatured ? 'primary' : 'outline-primary'}
+            variant={'primary' }
             to={url}
           >
             {buttonText}
@@ -51,7 +53,7 @@ function PriceCard({
               <li className="py-1" key={feature.id}>
                 <FontAwesomeIcon icon={faCheck} className="me-2 text-success" />{' '}
                 {feature.title}{' '}
-                <img src={feature.icon} width='50px' alt='payment' />
+                { feature.icon && <img src={feature.icon} width='50px' alt='payment' /> }
                 {/* {feature.tag && (
                   <SoftBadge pill bg={feature.tag.type}>
                     {feature.tag.label}

@@ -15,7 +15,7 @@ export const pricingData = [
     price: 0,
     url: '/e-commerce/billing',
     buttonText: 'Start free trial',
-    isFeatured: false,
+    bgColor: '#f5f5f5',
     featureTitle: 'Track team projects with free:',
     features: [
       { id: 1, title: 'Mada', icon: mada, },
@@ -33,14 +33,14 @@ export const pricingData = [
     price: 99,
     url: '/e-commerce/billing',
     buttonText: 'Get Business',
-    isFeatured: true,
+    bgColor: '#dcdcdc',
     featureTitle: 'Everything in Premium, plus:',
     features: [
-      { id: 1, title: 'Portfolios' },
-      { id: 2, title: 'Lock custom fields' },
-      { id: 3, title: 'Onboarding plan' },
-      { id: 4, title: 'Resource Management' },
-      { id: 5, title: 'Lock custom fields' }
+      { id: 1, title: 'Mada', icon: mada, },
+      { id: 2, title: 'Visa', icon: visa, },
+      { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'Apple Pay', icon: applePay, },
+      { id: 5, title: 'STC Pay', icon: stcPay, }
     ]
   },
   {
@@ -50,13 +50,14 @@ export const pricingData = [
     price: 199,
     url: '/e-commerce/billing',
     buttonText: 'Purchase',
-    isFeatured: false,
+    bgColor: '#CFB53B',
     featureTitle: 'Everything in Business, plus:',
     features: [
-      { id: 1, title: 'Portfolios' },
-      { id: 2, title: 'Tags', tag: { label: 'Coming soon', type: 'primary' } },
-      { id: 3, title: 'Onboarding plan' },
-      { id: 4, title: 'Resource Management' }
+      { id: 1, title: 'Mada', icon: mada, },
+      { id: 2, title: 'Visa', icon: visa, },
+      { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'Apple Pay', icon: applePay, },
+      { id: 5, title: 'STC Pay', icon: stcPay, }
     ]
   }
 ];

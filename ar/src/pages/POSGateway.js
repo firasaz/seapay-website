@@ -32,9 +32,9 @@ function POSGateway() {
         </Hero>
         
         <Section>
-            <div id='pricingCards' className='bg-white rounded p-3'>
+            <div id='pricingCards'style={{direction:'rtl'}} className='bg-white rounded p-3'>
                 {pricingData.map(pricing => (
-                    <PriceCard key={pricing.id} pricing={pricing} />
+                    <PriceCard key={pricing.id} pricing={pricing} style={{direction:'ltr'}} />
                 ))}
                 </div>
         </Section>

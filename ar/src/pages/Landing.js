@@ -20,6 +20,7 @@ import API from 'assets/img/seapay/API-cropped.png'
 import AML from 'assets/img/seapay/AML-cropped.png'
 import Dashboard from 'assets/img/seapay/Dashboard-cropped.png'
 import Privacy from 'assets/img/seapay/Privacy-cropped.png'
+import Partners from 'components/SeaPay/Partners';
 
 const Landing = () => {
   return (
@@ -32,9 +33,11 @@ const Landing = () => {
         msg='ابدأ في استخدام حلول سي باي لقبول مدفوعاتك تدير سي باي العديد من أنواع الدفع من المعاملات لمختلف أحجام وفئات الأعمال...سي باي تسهل لك مدفوعاتك في كل مكان.'
         btnText='ابدء تجربة فريدة من نوعها مع SeaPay'
         dashboardImage={dashboardImage}
-      />
+      >
+        <Partners />
+      </Hero>
       <Section style={{backgroundColor: "#fff"}}>
-        <h1 className="fs-2 fs-sm-4 fs-md-5" style={{ fontWeight: "bolder" }}>ما الذي تقدمة SeaPay ؟</h1>
+        <h1 className="fs-2 fs-sm-4 fs-md-5" style={{ fontWeight: "bolder", color:'#05007C'}}>ما الذي تقدمة SeaPay ؟</h1>
         <div style={{ paddingTop: 30 }}>
           <div className='row justify-content-between'>
             <Future image={iconRevenue} title={"تسجيل ميسر"} description={"سجل معنا بخطوات بسيطة وسهلة."} />
@@ -53,7 +56,7 @@ const Landing = () => {
       
       <Section>
         <Fragment 
-          title={{ 'text': 'مميزاتنا', 'style': {fontSize: '3rem'} }}
+          title={{ 'text': 'مميزاتنا', 'style': {fontSize: '3rem', color:'#05007C'} }}
           description={{ 'text': '' }}
         />
         <div className="gap-4 rounded equal-cards features">
@@ -95,7 +98,8 @@ const Landing = () => {
             // flex
             />
         </div>
-        {/* <div style={{ paddingBottom: 20 }}>
+        {/*
+        <div style={{ paddingBottom: 20 }}>
           منتجاتنا
         </div>
         <h1 className="fs-2 fs-sm-4 fs-md-5" style={{ fontWeight: "bolder" }}>اكتشف قائمة منتجاتنا</h1>
@@ -106,24 +110,25 @@ const Landing = () => {
           <Product img={paymentsImage} title={"معالجة المدفوعات"} description={"وسّع نطاق أعمالك واثبت حضورك في مناطق جديدة من خلال حلول مدفوعات محلية وموثوقة. تساعدك معرفتنا المحلية والعميقة على زيادة النمو من خلال تصميم الحل المناسب لك حسب كل سوق."} />
           <Product />
           <Product />
-        </div> */}
+        </div>
+        */}
       </Section>
       
       <Section style={{ backgroundColor: '#fff' }}>
         <Fragment 
-          title={{ 'text': 'اكتشف قائمة منتجاتنا' }}
+          title={{ 'text': 'اكتشف قائمة منتجاتنا', style:{ color:'#05007C' } }}
         />
         <div style={{display: 'grid', gap:'20px'}}>
           <div className='gap-3 equal-cards'>
             <Fragment
-              title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h2' }}
+              title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h3' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
               imgAttr={{ 'src': mobileApp, 'width': '100%', style:{maxWidth:'350px'} }}
               style={{ backgroundColor:'#f2f3f5'}}
               // flex
             />
             <Fragment
-              title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h2' }}
+              title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h3' }}
               description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
               imgAttr={{ 'src': POS, 'width': '100%', style:{maxWidth:'350px'} }}
               style={{ backgroundColor:'#f2f3f5'}}
