@@ -126,11 +126,7 @@ function SeaGateway() {
                 />
             </Section> 
              */}
-            <Section><Banner style={{color:'#fff', backgroundColor:'#000'}} /></Section>
             {/* <Banner style={{borderRadius:'0px', color:'#000'}} /> */}
-
-
-            <Footer />
         </>
     )
 }
