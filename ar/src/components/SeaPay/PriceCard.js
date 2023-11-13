@@ -25,7 +25,7 @@ function PriceCard({
       className={classNames('border-top border-bottom')}
       style={{ ...style }}
     >
-      <div className="h100">
+      <div className="h-100">
         <div 
           className="text-center p-4"
           style={{ backgroundColor: bgColor }}

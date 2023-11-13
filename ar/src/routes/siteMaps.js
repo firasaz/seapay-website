@@ -81,7 +81,7 @@ export const developersRoutes = {
       children: [
         {
           name: 'الوثائق',
-          to: '/',
+          to: 'https://documenter.getpostman.com/view/29277380/2s9YXfa2qf',
           exact: true,
           active: true
         },

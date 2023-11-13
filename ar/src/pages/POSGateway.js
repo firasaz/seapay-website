@@ -13,6 +13,9 @@ import iconSmart from 'assets/img/icons/64a6e2c0eddcaacf900c5faa_20f2dc44-6741-4
 import iconPayment from 'assets/img/icons/64a6e2c0eddcaacf900c5fa7_5426042c-938a-415f-a24d-ea3cc4ed8bb9_icon-plug-and-play.svg';
 import POS from 'assets/img/seapay/POS-cropped.png'
 import { pricingData } from 'data/pricing'
+import POS1 from 'assets/img/seapay/pos1.png'
+import POS2 from 'assets/img/seapay/pos2.png'
+import POS3 from 'assets/img/seapay/pos3.png'
 function POSGateway() {
   return (
     <>
@@ -30,14 +33,48 @@ function POSGateway() {
             <Future style={{color:'#fff'}} image={iconPayment} title={"ابتكار مستمر"} description={"عزّز صدارتك في المشهد الرقمي المتغير مع منصتنا التي تستخدم حلولاً تكنولوجية سبّاقة ورائدة."} />
 
         </Hero>
-        
+
         <Section>
+            <div className='mb-4'>
+                <h1 className='fw-bold'>بناء الثقة مع عملائك من خلال خدماتنا</h1>
+                <h2 className='fw-medium' style={{ color:'#0fe1fe' }}>تقدم لك خدمة SeaGateway</h2>
+            </div>
+            <Fragment
+                title={{ 'text': 'زيادة المبيعات', 'as': 'h2', style:{ color:'#1200f1' } }}
+                description={{ 'text': 'من خلال الاتصال بمعالج الدفع ، يقبل المدفوعات من خلال بطاقات الائتمان أو الخصم ومحافظ الهاتف المحمول .' }}
+                imgAttr={{ 'src': POS3, width: '250px' }}
+                style={{ backgroundColor:'#fff', marginBottom:'8px' }}
+                flex
+            />
+            <div className="equal-cards gap-2">
+                <Fragment
+                    title={{ 'text': 'سرعة الخدمة', 'as': 'h2', style:{ color:'#1200f1' } }}
+                    description={{ 'text': 'يتيح نظام مبيعات وخدمة النقاط إنجاز سريع للمعاملات - وهو بديل قابل للتطبيق وموثوق للخدمة اليدوية.' }}
+                    imgAttr={{ 'src': POS1, width: '250px' }}
+                    style={{ backgroundColor:'#fff' }}
+                />
+                <Fragment
+                    title={{ 'text': 'خدمات بيع متعددة', 'as': 'h2', style:{ color:'#1200f1' } }}
+                    description={{ 'text': 'مع وجود نظام نقاط البيع ، يمكنك توفير مجموعة كاملة من خيارات الدفع للعملاء .' }}
+                    imgAttr={{ 'src': POS2, width: '250px' }}
+                    style={{ backgroundColor:'#fff' }}
+                />
+                {/* <Fragment
+                    title={{ 'text': 'زيادة المبيعات', 'as': 'h2', style:{ color:'#1200f1' } }}
+                    description={{ 'text': 'من خلال الاتصال بمعالج الدفع ، يقبل المدفوعات من خلال بطاقات الائتمان أو الخصم ومحافظ الهاتف المحمول .' }}
+                    imgAttr={{ 'src': POS3, width: '250px' }}
+                    style={{ backgroundColor:'#fff', marginBottom:'8px' }}
+                /> */}
+            </div>
+        </Section>
+        
+        {/* <Section>
             <div id='pricingCards'style={{direction:'rtl'}} className='bg-white rounded p-3'>
                 {pricingData.map(pricing => (
                     <PriceCard key={pricing.id} pricing={pricing} style={{direction:'ltr'}} />
                 ))}
                 </div>
-        </Section>
+        </Section> */}
 
         <Footer />
     </>

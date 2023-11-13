@@ -1,9 +1,5 @@
 import Hero from 'components/SeaPay/Hero';
 import Navigation from 'components/SeaPay/Navigation';
-
-// import dashboardImage from 'assets/img/generic/falcon-mode-auto.jpg'
-import f1Img from 'assets/img/generic/falcon-mode-dark.jpg'
-// import f2Img from 'assets/img/generic/falcon-mode-default.jpg'
 import Banner from 'components/SeaPay/Banner';
 import Section from 'components/common/Section';
 import Fragment from 'components/SeaPay/Fragment';
@@ -15,6 +11,9 @@ import iconAuth from 'assets/img/icons/64a6e2c0eddcaacf900c5fa8_ca408fee-cc1e-4c
 import iconSmart from 'assets/img/icons/64a6e2c0eddcaacf900c5faa_20f2dc44-6741-489a-8cb6-953b30cb7996_icon-smart-experience.svg';
 import iconPayment from 'assets/img/icons/64a6e2c0eddcaacf900c5fa7_5426042c-938a-415f-a24d-ea3cc4ed8bb9_icon-plug-and-play.svg';
 import SeaGatewayy from 'assets/img/seapay/SeaGateway.png'
+import gateway1 from 'assets/img/seapay/seagateway1.png'
+import gateway2 from 'assets/img/seapay/seagateway2.png'
+import gateway3 from 'assets/img/seapay/seagateway3.png'
 function SeaGateway() {
     return (
         <>
@@ -34,6 +33,36 @@ function SeaGateway() {
 
             </Hero>
 
+            <Section>
+                <div className='mb-4'>
+                    <h1 className='fw-bold'>بناء الثقة مع عملائك من خلال خدماتنا</h1>
+                    <h2 className='fw-medium' style={{ color:'#0fe1fe' }}>تقدم لك خدمة SeaGateway</h2>
+                </div>
+                <Fragment
+                    title={{ 'text': 'قبول الدفع عبر الإنترنت', 'as': 'h2', style:{ color:'#1200f1' } }}
+                    description={{ 'text': 'توفر لك SeaGateway طرق دفع متعددة عبر الإنترنت لتنمية أعمالك من خلال البدء في قبول المدفوعات عبر الإنترنت من خلال متجرك.' }}
+                    imgAttr={{ 'src': gateway3, width: '250px' }}
+                    style={{ backgroundColor:'#fff', marginBottom:'8px' }}
+                    flex
+                />
+                <div className="equal-cards gap-2">
+                    <Fragment
+                        title={{ 'text': 'نمو العمل', 'as': 'h2', style:{ color:'#1200f1' } }}
+                        description={{ 'text': 'توفر لك SeaGateway طرق دفع متعددة عبر الإنترنت لتنمية أعمالك من خلال البدء في قبول المدفوعات عبر الإنترنت من خلال متجرك.' }}
+                        imgAttr={{ 'src': gateway1, width: '250px' }}
+                        style={{ backgroundColor:'#fff' }}
+                    />
+                    <Fragment
+                        title={{ 'text': 'أمان', 'as': 'h2', style:{ color:'#1200f1' } }}
+                        description={{ 'text': 'قم بمعالجة المدفوعات عبر الإنترنت باستخدام منصة واحدة آمنة باستخدام SeaGateway.' }}
+                        imgAttr={{ 'src': gateway2, width: '250px' }}
+                        style={{ backgroundColor:'#fff' }}
+                    />
+                </div>
+            </Section>
+
+            <Section style={{ backgroundColor:'#fff' }}><Banner style={{color:'#fff', backgroundColor:'#000'}} /></Section>
+            <Footer />
             {/* <Section className=''>
                 <div className="d-flex flex-row gap-3">
                     <Fragment
@@ -73,6 +102,7 @@ function SeaGateway() {
                 </div>
             </Section> */}
 
+            {/*
             <Section className='py-5 bg-white'>
                 <Fragment
                     title={{ 'text':'تحسين شامل' }}
@@ -82,7 +112,9 @@ function SeaGateway() {
                     flex
                 />
             </Section>
+            */}
             
+            {/* 
             <Section className='py-5 bg-white mt-3'>
                 <Fragment
                     title={{ 'text':'تحسين شامل' }}
@@ -92,8 +124,8 @@ function SeaGateway() {
                     flex
                     // flexReverse
                 />
-            </Section>
-            
+            </Section> 
+             */}
             <Section><Banner style={{color:'#fff', backgroundColor:'#000'}} /></Section>
             {/* <Banner style={{borderRadius:'0px', color:'#000'}} /> */}
 

@@ -72,35 +72,49 @@ export const pricingAltData = [
     url: '#!',
     buttonText: 'Start free trial',
     isFeatured: false,
+    bgColor: '#f5f5f5',
     features: [
-      { id: 0, title: 'Unlimited Broadcasts', isActive: true },
-      { id: 1, title: 'Unlimited Sequences', isActive: true },
-      { id: 2, title: 'Advanced marketing', isActive: true },
-      { id: 3, title: 'Api & Developer Tools', isActive: true },
-      { id: 4, title: 'Integrations', isActive: false },
-      { id: 5, title: 'Payments', isActive: false },
-      { id: 6, title: 'Unlimted Tags', isActive: false },
-      { id: 7, title: 'Custom Fields', isActive: false }
+      { id: 1, title: 'Mada', icon: mada, },
+      { id: 2, title: 'Visa', icon: visa, },
+      { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'Apple Pay', icon: applePay, },
+      { id: 5, title: 'STC Pay', icon: stcPay, }
     ]
   },
   {
     id: 1,
-    title: 'Pro',
+    title: 'Silver',
     price: 99,
     period: 'm',
     icon: proIcon,
     url: '#!',
     buttonText: 'Purchase Now',
-    isFeatured: true,
+    isFeatured: false,
+    bgColor: '#dcdcdc',
     features: [
-      { id: 0, title: 'Unlimited Broadcasts', isActive: true },
-      { id: 1, title: 'Unlimited Sequences', isActive: true },
-      { id: 2, title: 'Advanced marketing', isActive: true },
-      { id: 3, title: 'Api & Developer Tools', isActive: true },
-      { id: 4, title: 'Integrations', isActive: true },
-      { id: 5, title: 'Payments', isActive: true },
-      { id: 6, title: 'Unlimted Tags', isActive: true },
-      { id: 7, title: 'Custom Fields', isActive: true }
+      { id: 1, title: 'Mada', icon: mada, },
+      { id: 2, title: 'Visa', icon: visa, },
+      { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'Apple Pay', icon: applePay, },
+      { id: 5, title: 'STC Pay', icon: stcPay, }
+    ]
+  },
+  {
+    id: 2,
+    title: 'Gold',
+    price: 199,
+    period: 'm',
+    icon: proIcon,
+    url: '#!',
+    buttonText: 'Everything in Silver, plus',
+    isFeatured: false,
+    bgColor: '#CFB53B',
+    features: [
+      { id: 1, title: 'Mada', icon: mada, },
+      { id: 2, title: 'Visa', icon: visa, },
+      { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'Apple Pay', icon: applePay, },
+      { id: 5, title: 'STC Pay', icon: stcPay, }
     ]
   }
 ];
