@@ -22,17 +22,19 @@ import Dashboard from 'assets/img/seapay/Dashboard-cropped.png'
 import Privacy from 'assets/img/seapay/Privacy-cropped.png'
 import Partners from 'components/SeaPay/Partners';
 
+import bgCover from 'assets/img/seapay/stock-photo-tablet-online-payment-banking.jpg'
 const Landing = () => {
   return (
     <>
       <Navigation />
       <Hero 
-        title='اقبل الدفع بواسطة' 
+        title={{ text:'ابدأ تجارتك واستقبل مدفوعاتك مع', style:{ textAlign:'start' }}}
         span
         // description='بوابة الدفع - تقارير متكاملة - أدوات ربط مع SDK - الحماية من الاحتيال و غسيل الاموال - ادارة الافرقة - حسابات متعددة - عمليات إعادة البيع - الدفع باستخدام الرابط و أكثر من 30 خدمة اخرى.' 
-        msg='ابدأ في استخدام حلول سي باي لقبول مدفوعاتك تدير سي باي العديد من أنواع الدفع من المعاملات لمختلف أحجام وفئات الأعمال...سي باي تسهل لك مدفوعاتك في كل مكان.'
+        // msg='ابدأ في استخدام حلول سي باي لقبول مدفوعاتك تدير سي باي العديد من أنواع الدفع من المعاملات لمختلف أحجام وفئات الأعمال...سي باي تسهل لك مدفوعاتك في كل مكان.'
         btnText='ابدء تجربة فريدة من نوعها مع SeaPay'
-        dashboardImage={dashboardImage}
+        // dashboardImage={dashboardImage}
+        bgImg={{ img: bgCover, position: 'center top' }}
       >
         <Partners />
       </Hero>
