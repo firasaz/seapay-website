@@ -1,6 +1,6 @@
 import Footer from 'components/SeaPay/Footer'
 import Fragment from 'components/SeaPay/Fragment'
-import PriceCard from 'components/SeaPay/PriceCard'
+// import PriceCard from 'components/SeaPay/PriceCard'
 import Section from 'components/common/Section'
 import Future from 'components/SeaPay/Future'
 import Hero from 'components/SeaPay/Hero'
@@ -12,7 +12,7 @@ import iconAuth from 'assets/img/icons/64a6e2c0eddcaacf900c5fa8_ca408fee-cc1e-4c
 import iconSmart from 'assets/img/icons/64a6e2c0eddcaacf900c5faa_20f2dc44-6741-489a-8cb6-953b30cb7996_icon-smart-experience.svg';
 import iconPayment from 'assets/img/icons/64a6e2c0eddcaacf900c5fa7_5426042c-938a-415f-a24d-ea3cc4ed8bb9_icon-plug-and-play.svg';
 import POS from 'assets/img/seapay/POS-cropped.png'
-import { pricingData } from 'data/pricing'
+// import { pricingData } from 'data/pricing'
 import POS1 from 'assets/img/seapay/pos1.png'
 import POS2 from 'assets/img/seapay/pos2.png'
 import POS3 from 'assets/img/seapay/pos3.png'
