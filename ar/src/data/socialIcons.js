@@ -5,7 +5,7 @@ export const bgWhiteIcons = [
   // { icon: ['fab', 'google-plus-g'], color: 'google-plus', bg: 'white', href: '#!' },
   // { icon: ['fab', 'medium-m'], color: 'gray-700', bg: 'white', href: '#!' }
 ];
-export const socialIcons = [
+export default [
   { icon: ['fab', 'facebook-f'], color: 'facebook', href: '#!' },
   { icon: ['fab', 'twitter'], color: 'twitter', href: '#!' },
   { icon: ['fab', 'linkedin-in'], color: 'linkedin', href: '#!' },
