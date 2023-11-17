@@ -62,9 +62,9 @@ function PriceCard({
               </li>
             ))}
           </ul>
-          <Link to="#!" className="btn btn-link">
+          {/* <Link to="#!" className="btn btn-link">
             More about {title}
-          </Link>
+          </Link> */}
         </div>
       </div>
     </Col>

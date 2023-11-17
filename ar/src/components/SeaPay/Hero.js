@@ -12,11 +12,11 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, to, bgIm
   } = useAppContext();
   return (
     <Section
-      className="overflow-hidden pt-7"
+      className="hero overflow-hidden pt-7"
       data-bs-theme="light"
       overlay
-      image={bgImg.img}
-      position={bgImg.position}
+      image={bgImg && bgImg.img}
+      position={bgImg && bgImg.position}
     >
       <Row className="justify-content-center align-items-center py-5">
         <Col
@@ -25,9 +25,9 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, to, bgIm
           xl={dashboardImage ? 4 : 12}
           className={dashboardImage ? "text-center text-xl-start" : "text-center" }
         >
-          <h1 className=" fw-light" style={{ paddingBottom: 10, lineHeight: '60px', ...title.style }}>{title.text}</h1>
+          <h1 className={!bgImg && 'text-white'+" fw-light"} style={{ paddingBottom: 10, lineHeight: '60px', ...title.style }}>{title.text}</h1>
           {span && (
-            <h1 className=' fw-light py-1' style={title.style}>
+            <h1 className={!bgImg && 'text-white'+' fw-light py-1'} style={title.style}>
               <span className="fw-bold">
                 <Typewriter
                   words={['روابط الدفع', 'نقاط البيع', 'بوابة دفع']}
@@ -42,7 +42,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, to, bgIm
               <br />
             </h1>
           )}
-          <div className='py-4'>
+          <div className={!bgImg && 'text-white'+' opacity-75 py-4'}>
             {description}
           </div>
           <p className="lead text-white opacity-75">
@@ -53,7 +53,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, to, bgIm
               as={Link}
               variant="outline-light"
               size="lg"
-              className="border-2 rounded-pill mt-4 fs-0 py-2 rounded"
+              className="border-2 rounded-pill fs-0 py-2 rounded"
               to="https://mp.seapay.com.sa/register"
             >
               {btnText}
@@ -69,7 +69,7 @@ function Hero({ title, description, msg, btnText, span, dashboardImage, to, bgIm
               <img
                 className="img-fluid"
                 src={dashboardImage}
-                alt=""
+                alt=""  
               />
             </Link>
           </Col>

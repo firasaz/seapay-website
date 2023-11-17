@@ -21,7 +21,7 @@ function POSGateway() {
     <>
         <Navigation />
         <Hero 
-            title='حوّل الأموال بشكل سلس وموسّع مع حلول SeaGateway للمدفوعات'
+            title='حوّل الأموال بشكل سلس وموسّع مع حلول SeaPOS للمدفوعات'
             // description='بوابة الدفع - تقارير متكاملة - أدوات ربط مع SDK - الحماية من الاحتيال و غسيل الاموال - ادارة الافرقة - حسابات متعددة - عمليات إعادة البيع - الدفع باستخدام الرابط و أكثر من 30 خدمة اخرى.' 
             msg='طور أعمالك و متاجرك بواسطة خيارت دفع متنوعة , تحت مضلة واحدة متكاملة , اقبل الدفع محليا و خليجيا و عاليما'
             btnText='ابدء تجربة فريدة من نوعها مع SeaPay'
@@ -37,7 +37,7 @@ function POSGateway() {
         <Section>
             <div className='mb-4'>
                 <h1 className='fw-bold'>بناء الثقة مع عملائك من خلال خدماتنا</h1>
-                <h2 className='fw-medium' style={{ color:'#0fe1fe' }}>تقدم لك خدمة SeaGateway</h2>
+                <h2 className='fw-medium' style={{ color:'#0fe1fe' }}>تقدم لك خدمة SeaPOS</h2>
             </div>
             <Fragment
                 title={{ 'text': 'زيادة المبيعات', 'as': 'h2', style:{ color:'#1200f1' } }}

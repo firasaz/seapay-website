@@ -4,8 +4,8 @@ import classNames from 'classnames'
 function Fragment({tag, title, description, imgAttr, style, className, flex, flexReverse, children}) {
   return (
     <div style={style} className={classNames('p-4 rounded', className)}>
-        <div id='fragment' className={classNames('', flex && 'd-flex flex-row gap-1', 'h-100', flexReverse && 'flex-column flex-column-reverse')}>
-            <div className={flex && 'flex-1'}>
+        <div id='fragment' className={classNames('', flex && 'equal-cards', 'h-100', flexReverse && 'flex-column flex-column-reverse')}>
+            <div className={flex && 'flex-1 m-auto'}>
                 {tag && (
                     <h6>{tag}</h6>
                 )}

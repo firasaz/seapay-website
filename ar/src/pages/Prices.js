@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { pricingData } from 'data/pricing'
+import { pricingArData } from 'data/pricing'
 import priceHero from 'assets/img/generic/1.jpg'
 import PriceCard from 'components/SeaPay/PriceCard'
 import Section from 'components/common/Section'
@@ -8,6 +8,7 @@ import Navigation from 'components/SeaPay/Navigation'
 import Footer from 'components/SeaPay/Footer'
 import Hero from 'components/SeaPay/Hero'
 function Prices() {
+  
   return (
     <>
         <Navigation />
@@ -18,7 +19,7 @@ function Prices() {
         />
         <Section>
             <div id='pricingCards' className='bg-white rounded p-3'>
-                {pricingData.map(pricing => (
+                {pricingArData.map(pricing => (
                     <PriceCard key={pricing.id} pricing={pricing} />
                 ))}
                 </div>

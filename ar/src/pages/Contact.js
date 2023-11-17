@@ -19,7 +19,7 @@ function Contact() {
             dashboardImage={Earth}
         />
         <Section style={{ backgroundColor:'#fff' }}>
-            <div className='d-flex lg:align-items-center'>
+            <div className='equal-cards'>
                 <div className='row flex-1'>
                     <div className='d-flex align-items-center justify-content-center'>
                         <FontAwesomeIcon icon={faLocationArrow} style={{ fontSize:'25px', color:'#05007C'}} />
@@ -29,20 +29,22 @@ function Contact() {
                             </p>
                         </div>
                     </div>
-                    <div className='d-flex align-items-center justify-content-center'>
-                        <FontAwesomeIcon icon={faPhone} style={{ fontSize:'25px', color:'#05007C' }} />
-                        <div className="w-full m-auto" style={{"direction": "ltr", color: "darkslategray", fontSize: "17px", fontWeight:'bold' }}>
-                            <p className="m-auto">
-                            800 124 0428
-                            </p>
+                    <div className="d-flex w-full contact-details justify-content-between">
+                        <div className='d-flex align-items-center justify-content-center'>
+                            <FontAwesomeIcon icon={faPhone} style={{ fontSize:'25px', color:'#05007C', marginLeft:'10px', marginRight:'0px' }} />
+                            <div className="w-full m-auto" style={{"direction": "ltr", color: "darkslategray", fontSize: "17px", fontWeight:'bold' }}>
+                                <p className="m-auto">
+                                800 124 0428
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div className='d-flex align-items-center justify-content-center'>
-                        <FontAwesomeIcon icon={faMailBulk} style={{ fontSize:'25px', color:'#05007C' }} />
-                        <div className="w-full m-auto" style={{"direction": "ltr", color: "darkslategray", fontSize: "17px", fontWeight:'bold' }}>
-                            <p style={{ color: 'darkslategray', fontSize: '17px'}}>
-                                info@seapay.com.sa
-                            </p>
+                        <div className='d-flex align-items-center justify-content-center'>
+                            <FontAwesomeIcon icon={faMailBulk} style={{ fontSize:'25px', color:'#05007C', marginLeft:'10px', marginRight:'0px' }} />
+                            <div className="w-full m-auto" style={{"direction": "ltr", color: "darkslategray", fontSize: "17px", fontWeight:'bold' }}>
+                                <p style={{ color: 'darkslategray', fontSize: '17px'}}>
+                                    info@seapay.com.sa
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

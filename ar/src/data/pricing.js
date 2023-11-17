@@ -62,6 +62,61 @@ export const pricingData = [
   }
 ];
 
+export const pricingArData = [
+  {
+    id: 0,
+    title: 'مجانا',
+    // subTitle: 'For teams that need to create project plans with confidence.',
+    price: 0,
+    url: '/e-commerce/billing',
+    buttonText: 'Start free trial',
+    bgColor: '#f5f5f5',
+    featureTitle: 'للعمليات الشهرية القليلة',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
+    ]
+  },
+  {
+    id: 1,
+    title: 'الفضية',
+    subTitle:
+      'For teams and companies that need to manage work across initiatives.',
+    price: 99,
+    url: '/e-commerce/billing',
+    buttonText: 'Get Business',
+    bgColor: '#dcdcdc',
+    featureTitle: 'لحجم عمليات أكبر',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
+    ]
+  },
+  {
+    id: 2,
+    title: 'الذهبية',
+    // subTitle: 'For organizations that need additional security and support.',
+    price: 199,
+    url: '/e-commerce/billing',
+    buttonText: 'Purchase',
+    bgColor: '#CFB53B',
+    featureTitle: 'للعمليات الكثيرة',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
+    ]
+  }
+];
+
 export const pricingAltData = [
   {
     id: 0,
@@ -115,6 +170,61 @@ export const pricingAltData = [
       { id: 3, title: 'MasterCard', icon: masterCard, tag: { label: 'New', type: 'success' } },
       { id: 4, title: 'Apple Pay', icon: applePay, },
       { id: 5, title: 'STC Pay', icon: stcPay, }
+    ]
+  }
+];
+
+export const pricingAltArData = [
+  {
+    id: 0,
+    title: 'مجانا',
+    // subTitle: 'For teams that need to create project plans with confidence.',
+    price: 0,
+    url: '/e-commerce/billing',
+    buttonText: 'Start free trial',
+    bgColor: '#f5f5f5',
+    featureTitle: 'للعمليات الشهرية القليلة',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
+    ]
+  },
+  {
+    id: 1,
+    title: 'الفضية',
+    subTitle:
+      'For teams and companies that need to manage work across initiatives.',
+    price: 99,
+    url: '/e-commerce/billing',
+    buttonText: 'Get Business',
+    bgColor: '#dcdcdc',
+    featureTitle: 'لحجم عمليات أكبر',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
+    ]
+  },
+  {
+    id: 2,
+    title: 'الذهبية',
+    // subTitle: 'For organizations that need additional security and support.',
+    price: 199,
+    url: '/e-commerce/billing',
+    buttonText: 'Purchase',
+    bgColor: '#CFB53B',
+    featureTitle: 'للعمليات الكثيرة',
+    features: [
+      { id: 1, title: 'مدى', icon: mada, },
+      { id: 2, title: 'فيزا', icon: visa, },
+      { id: 3, title: 'ماستر كارد', icon: masterCard, tag: { label: 'New', type: 'success' } },
+      { id: 4, title: 'أبل باي', icon: applePay, },
+      { id: 5, title: 'STC باي', icon: stcPay, }
     ]
   }
 ];

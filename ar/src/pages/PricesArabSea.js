@@ -6,7 +6,7 @@ import Navigation from 'components/SeaPay/Navigation'
 import Footer from 'components/SeaPay/Footer'
 import PriceCard from 'components/SeaPay/PriceCard'
 
-import { pricingAltData } from 'data/pricing'
+import { pricingAltArData } from 'data/pricing'
 import priceHero from 'assets/img/generic/10.jpg'
 
 function PricesArabSea() {
@@ -20,7 +20,7 @@ function PricesArabSea() {
       />
       <Section>
         <div id='pricingCards' className='bg-white rounded p-3'>
-          {pricingAltData.map(pricing => (
+          {pricingAltArData.map(pricing => (
               <PriceCard key={pricing.id} pricing={pricing} />
           ))}
         </div>

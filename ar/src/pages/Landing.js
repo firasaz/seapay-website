@@ -22,7 +22,7 @@ import Dashboard from 'assets/img/seapay/Dashboard-cropped.png'
 import Privacy from 'assets/img/seapay/Privacy-cropped.png'
 import Partners from 'components/SeaPay/Partners';
 
-import bgCover from 'assets/img/seapay/stock-photo-tablet-online-payment-banking.jpg'
+// import bgCover from 'assets/img/seapay/stock-photo-tablet-online-payment-banking.jpg'
 const Landing = () => {
   return (
     <>
@@ -30,11 +30,11 @@ const Landing = () => {
       <Hero 
         title={{ text:'ابدأ تجارتك واستقبل مدفوعاتك مع', style:{ textAlign:'start' }}}
         span
-        // description='بوابة الدفع - تقارير متكاملة - أدوات ربط مع SDK - الحماية من الاحتيال و غسيل الاموال - ادارة الافرقة - حسابات متعددة - عمليات إعادة البيع - الدفع باستخدام الرابط و أكثر من 30 خدمة اخرى.' 
+        description='SeaPay هي خدمة دفع الكترونية من خلالها يتم تسهيل المدفوعات الإلكترونية والعديد من أنواع الدفع الالكتروني لمختلف أحجام وفئات الأعمال. ابدأ في استخدام حلول SeaPay لقبول مدفوعاتك' 
         // msg='ابدأ في استخدام حلول سي باي لقبول مدفوعاتك تدير سي باي العديد من أنواع الدفع من المعاملات لمختلف أحجام وفئات الأعمال...سي باي تسهل لك مدفوعاتك في كل مكان.'
         btnText='ابدء تجربة فريدة من نوعها مع SeaPay'
-        // dashboardImage={dashboardImage}
-        bgImg={{ img: bgCover, position: 'center top' }}
+        dashboardImage={dashboardImage}
+        // bgImg={{ img: bgCover, position: 'center top' }}
       >
         <Partners />
       </Hero>
@@ -116,34 +116,34 @@ const Landing = () => {
         */}
       </Section>
       
-      <Section style={{ backgroundColor: '#fff' }}>
-        <Fragment 
-          title={{ 'text': 'اكتشف قائمة منتجاتنا', style:{ color:'#05007C' } }}
-        />
-        <div style={{display: 'grid', gap:'20px'}}>
-          <div className='gap-3 equal-cards'>
-            <Fragment
-              title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h3' }}
-              description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
-              imgAttr={{ 'src': mobileApp, 'width': '100%', style:{maxWidth:'350px'} }}
-              style={{ backgroundColor:'#f2f3f5'}}
-              // flex
-            />
-            <Fragment
-              title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h3' }}
-              description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
-              imgAttr={{ 'src': POS, 'width': '100%', style:{maxWidth:'350px'} }}
-              style={{ backgroundColor:'#f2f3f5'}}
-              // flex
-            />
-          </div>
-          <div className='gap-3 equal-cards'>
-          </div>
-        </div>
-      </Section>
+      <div class="bg-white">
+        <Section style={{ backgroundColor: '#fff' }} className='pb-0'>
+          <Fragment
+            title={{ 'text': 'اكتشف قائمة منتجاتنا', style:{ color:'#05007C' } }}
+          />
+        </Section>
+        <Section style={{ backgroundColor: '#edf2f9' }} className='py-2 my-0'>
+          <Fragment
+            title={{ 'text': 'SeaGateway للمدفوعات', 'as': 'h3' }}
+            description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
+            imgAttr={{ 'src': mobileApp, 'width': '100%', style:{maxWidth:'350px'} }}
+            // style={{ backgroundColor:'#f2f3f5' }}
+            flex
+          />
+        </Section>
+        <Section style={{ backgroundColor: '#edf2f9' }} className='mt-5 py-2'>
+          <Fragment
+            title={{ 'text': 'SeaPOS نقاط البيع الذكي', 'as': 'h3' }}
+            description={{ 'text': 'امنح التجار أنسب طرق الدفع والتوسع في أسواق جديدة ببضع نقرات. اقبل جميع أنواع المدفوعات باستخدام بوابة الدفع عبر الإنترنت سي باي التي تتكامل بسهولة على جميع المنصات عبر الإنترنت.' }}
+            imgAttr={{ 'src': POS, 'width': '100%', style:{maxWidth:'350px'} }}
+            // style={{ backgroundColor:'#5e6e82' }}
+            flex
+          />
+        </Section>
+      </div>
 
       {/* <Section><Banner /></Section> */}
-      <Banner style={{ borderRadius:'0px' }} />
+      <Banner style={{ borderRadius:'0px', backgroundColor:'#fff' }} to='/contact-us' />
 
       <Footer />
     </>
